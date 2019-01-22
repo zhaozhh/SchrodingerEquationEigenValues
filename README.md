@@ -1,0 +1,2 @@
+# SchrodingerEquationEigenValues
+Solve Schrodinger equation.
