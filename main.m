@@ -7,9 +7,9 @@
 
 
 U=load('Vzk=1C2=20C3=0p40p50p6.txt');
- x=U(:,1);
+ x=U(:,1);%coordinate
 % x=complementX(x,1);
- y=U(:,3);
+ y=U(:,3);%potential.
 % y=complementX(y,2);
 U=[x,y];
 figure
