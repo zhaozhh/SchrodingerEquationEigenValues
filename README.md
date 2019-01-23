@@ -1,3 +1,5 @@
 # SchrodingerEquationEigenValues
-Solve Schrodinger equation.
+
+Solve the Schrodinger equation.
+
 Can be ran in Octave.
