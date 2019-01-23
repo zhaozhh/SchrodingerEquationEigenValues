@@ -3,6 +3,7 @@
 % Date  : 2014-6-20
 % Purpose: Searching the eigenvalues of Schordinger equation.
 % The Schordinger equation has the form f''+(E-U))f=0,
+% Run fine in Octave
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -17,7 +18,7 @@ plot(x,y)
 title('U(z)')
 
 eigenRange=linspace(min(y)+0.1,70,1000);
-[eigenValues,waveFunctions]=eigenNumerov21(eigenRange,U);
+[eigenValues,waveFunctions]=eigenNumerov(eigenRange,U);
 %The first column of waveFunctions is coordinate x.
 
 fprintf('The eigenvlue is:  %3.16f, \n', eigenValues);
